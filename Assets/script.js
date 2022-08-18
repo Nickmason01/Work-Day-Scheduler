@@ -18,10 +18,6 @@ function displayTime() {
 
 setInterval(displayTime, 1000);
 
-function timeColors() {
-    var 
-}
-
 function saveuserInput () {
     var userInput = document.querySelector(".schedInput");
     userInput.textContent= ("")
@@ -30,14 +26,14 @@ function saveuserInput () {
     
 }
 
-// function renderuserInput () {
-    // var lastuserInput = JSON.parse(localStorage.getItem("userInput"));
-    // if(lastuserInput !== null) {
-        // document.querySelector(".schedInput").innerHTML = lastuserInput.value;
-    // }else{
-        // return;
-    // }
-// }
+ function renderuserInput () {
+     var lastuserInput = JSON.parse(localStorage.getItem("userInput"));
+     if(lastuserInput !== null) {
+         document.querySelector(".schedInput").innerHTML = lastuserInput.value;
+     }else{
+         return;
+     }
+ }
 
   
 
