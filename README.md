@@ -19,4 +19,7 @@ The table uses Javascript to color code the timeblocks to represent past,present
 
 Clicking the save button saves the event in the corresponding input field and allows those fields to persist even between refreshes 
 
+![image](https://user-images.githubusercontent.com/108901623/185524888-385b9bfb-25a6-4235-b2c4-7d66468c1dd1.png)
+
+URL of deployed application
 
