@@ -23,3 +23,4 @@ Clicking the save button saves the event in the corresponding input field and al
 
 URL of deployed application
 
+https://nickmason01.github.io/Work-Day-Scheduler/
